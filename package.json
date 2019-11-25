@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/diogojuliano89/cdci/issues"
   },
-  "homepage": "https://github.com/diogojuliano89/cdci#readme"
+  "homepage": "https://github.com/diogojuliano89/cdci#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
