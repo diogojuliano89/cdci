@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specifie\" && exit 1"
+    "test": "echo \"Error: no test specifie\" && exit 1",
+    "lint": "eslint app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/diogojuliano89/cdci#readme",
   "dependencies": {
     "express": "4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1"
   }
 }
